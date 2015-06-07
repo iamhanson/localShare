@@ -113,6 +113,31 @@ header{
     background-image: url(../image/8.png);
 }
 
+.hi-zx{
+    background-image: url(../image/1.png);
+}
+.hi-bj{
+    background-image: url(../image/6.png);
+}
+.hi-yd{
+    background-image: url(../image/4.png);
+}
+.hi-xx{
+    background-image: url(../image/2.png);
+}
+.hi-xf{
+    background-image: url(../image/5.png);
+}
+.hi-xf{
+    background-image: url(../image/3.png);
+}
+.hi-xq{
+    background-image: url(../image/7.png);
+}
+.hi-hd{
+    background-image: url(../image/8.png);
+}
+
 .push-wrap{
     margin-top: 0.6rem;
     width: 100%;
@@ -133,30 +158,44 @@ header{
     display:-webkit-box;
     -webkit-box-align:center;
     font-size: 1rem;
-    border-bottom: solid 1px #f2f2f2;
     text-indent: 5px;
 }
 
 .pt-more{
     -webkit-box-pack:end;
 }
+
+
 .hobby-item-wrap{
-    width: 100%;
-    height: 8rem;
+    border-top: solid 1px #f2f2f2;
     display: -webkit-box;
+    -webkit-box-orient:horizontal;
+    flex-wrap:wrap;
+    -webkit-flex-wrap:wrap;  
+    -webkit-box-pack: center;
+}
+.hobby-item-wrap li{
+    padding-top: 0.8rem;
+    width: 25%;
+    height: 5rem;
+    -webkit-box-flex: 1;
+}
+.hobby-item{
+    width: 100%;
+    height: 3.5rem;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 0.3
+}
+.hobby-item-text{
+    width: 100%;
+    text-align: center;
+    line-height: 1.5rem;
+    height: 1.5rem;
+    font-size: 0.8rem;
 }
 
-.hobby-first{
-    height: 100%;
-    width: 30%;
-    border-right: solid 1px #f2f2f2;
-    background: #cccccc;
-}
-.hir-wrap{
-    height: 100%;
-    width: 70%
-}
-.hobby-item-wrap img{
-    width: 99%;
-    height: 99%;
-}
+
+
+
