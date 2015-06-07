@@ -1,0 +1,25 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background: #f2f2f2;
+}
+p,ul,li{
+    padding: 0px;
+    margin: 0px;
+}
+input,textarea,select,button{
+    outline: none;
+}
+
+.wbf-1{
+    -webkit-box-flex:1;
+}
+.wbf-2{
+    -webkit-box-flex:2;
+}
+.wbf-3{
+    -webkit-box-flex:3;
+}
+.wbf-5{
+    -webkit-box-flex:5;
+}
