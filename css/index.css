@@ -114,28 +114,28 @@ header{
 }
 
 .hi-zx{
-    background-image: url(../image/1.png);
+    background-image: url(../image/zx.png);
 }
 .hi-bj{
-    background-image: url(../image/6.png);
+    background-image: url(../image/bj.png);
 }
 .hi-yd{
-    background-image: url(../image/4.png);
+    background-image: url(../image/yd.png);
 }
 .hi-xx{
-    background-image: url(../image/2.png);
+    background-image: url(../image/xx.png);
 }
 .hi-xf{
-    background-image: url(../image/5.png);
+    background-image: url(../image/xf.png);
 }
-.hi-xf{
-    background-image: url(../image/3.png);
+.hi-lx{
+    background-image: url(../image/lx.png);
 }
 .hi-xq{
-    background-image: url(../image/7.png);
+    background-image: url(../image/xq.png);
 }
 .hi-hd{
-    background-image: url(../image/8.png);
+    background-image: url(../image/hd.png);
 }
 
 .push-wrap{
@@ -186,7 +186,7 @@ header{
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: contain;
-    opacity: 0.3
+    opacity: 0.6
 }
 .hobby-item-text{
     width: 100%;
