@@ -37,3 +37,20 @@ input,textarea,select,button{
 .bl{
     border-left: 1px solid #f2f2f2;
 }
+.pop-cover{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 10;
+    background: #000000;
+    opacity: 0.8;
+    top: 0;
+    left: 0;
+}
+
+::-webkit-scrollbar {
+
+  
+
+}
+   

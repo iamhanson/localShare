@@ -1,6 +1,7 @@
 header{
+    margin-top: -3rem;
+    position:relative;
     height: 3rem;
-    position: fixed;
     background: orange;
     width: 100%;
     display:-webkit-box;
