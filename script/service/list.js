@@ -10,7 +10,7 @@ var list=(function(_self){
 $(function(){
     //点击弹出选择层
     $("#header_opt").find("li").bind("click",function(){
-        alert($("body").scrollTop)
+        alert($(document).scrollTop())
         commonHelper.popCover(function(){
             list.showPopSelect();
             $("body").find(".pop-cover").one("click",function(){
@@ -21,5 +21,7 @@ $(function(){
         });
     });
     
-    
+    document.body.onscroll=function(){
+         console.log($("body").offset().top);
+    }
 });

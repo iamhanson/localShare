@@ -16,6 +16,7 @@ body {
 	-webkit-box-orient:horizontal;
 	-webkit-box-align: center; 
 	background: url(../image/right-bg.png) 100% 50% no-repeat;
+    background-size: auto 30%;
 }
 .user-icon{
 
@@ -36,8 +37,8 @@ body {
 	width: 100%;
 	height: auto;
 	background: #ffffff;
-	border-top: solid 1px #cccccc;
-	border-bottom: solid 1px #cccccc;
+	border-top: solid 1px #dddddd;
+	border-bottom: solid 1px #dddddd;
 	display: -webkit-box;
 	-webkit-box-orient:vertical;
 	-webkit-box-align: center; 
@@ -110,6 +111,8 @@ body {
 	margin-right: 0.5rem;
 }
 .item-tips{
+    float: right;
+    margin-right: 1.5rem;
 	font-size: 0.8rem;
 	color: #999999;
 }
