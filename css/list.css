@@ -31,6 +31,8 @@ body{
 	text-align: center;
 	height: 2rem;
     line-height: 2rem;
+    cursor:pointer;
+
 }
 .options ul li:nth-child(1){
 	border-left: none;
@@ -57,7 +59,8 @@ body{
 	border-bottom: none;
 }
 .pop-select li{
-	border-bottom: solid 1px #f2f2f2
+	border-bottom: solid 1px #f2f2f2;
+	cursor:pointer;
 }
 .select-item{
 	display: -webkit-box;

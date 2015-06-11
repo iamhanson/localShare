@@ -10,7 +10,7 @@ var commonHelper=(function(_self){
         callBack();
     }
     _self.closeCover=function(){
-        $("body").find(".pop-cover").remove().removeAttr("style");
+        $("body").removeAttr("style").find(".pop-cover").remove()
     };
     return _self;
 })(window.commonHelper||{});
