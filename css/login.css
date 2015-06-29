@@ -1,0 +1,72 @@
+.login-form{
+    margin: 1.5rem auto 0;
+    overflow: hidden;
+    height: 6rem;
+    width: 90%;
+    border: solid 0.1rem #cccccc;
+    border-radius: 0.5rem;
+    background: #ffffff;
+}
+.login-form input{
+    width: 100%;
+    padding-left: 0.5rem;
+    height: 2.9rem;
+    border: none;
+    font-family: "Microsoft YaHei";
+}
+.login-form input:first-child{
+    border-bottom: 0.1rem #cccccc solid
+}
+.longin-btn{
+    display: block;
+    margin: 1rem auto 0;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    width: 90%;
+    font-size: 1rem;
+    border: solid 0.1rem #2E6DB7;
+    border-radius: 0.5rem;
+    background: #367BCD;
+    color: #ffffff;
+    font-family: "Microsoft YaHei";
+    cursor: pointer;
+}
+.longin-btn:hover{
+    background: #3277C8
+}
+.login-href{
+    display: -webkit-box;
+	-webkit-box-orient:horizontal;
+	-webkit-box-pack: center;
+	-webkit-box-align: center;
+    height: 3rem;
+    font-size: 0.9rem;
+    word-spacing: 0.5rem;
+    color: #888888;
+}
+.login-href a{
+    text-decoration: none;
+    color: #367BCD
+}
+.third-login{
+    width: 90%;
+    margin: 1rem auto 0;
+    overflow: hidden;
+    display: -webkit-box;
+	-webkit-box-orient:horizontal;
+	-webkit-box-pack: center;
+	-webkit-box-align: center;
+    font-family: "Microsoft YaHei";
+    font-size: 0.6rem;
+    color: #666666
+}
+.third-login img{
+    height: 2rem;
+}
+.third-login li{
+    margin: 0 0.8rem;
+    display: -webkit-box;
+	-webkit-box-orient:vertical;
+	-webkit-box-pack: center;
+	-webkit-box-align: center;
+}

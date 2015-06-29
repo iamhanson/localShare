@@ -1,6 +1,9 @@
 .group-wrap{
 	height: 2.5rem;
 	width: 100%;
+    position: fixed;
+    top: 0rem;
+    left: 0rem;
 }
 .group-item{
 	height: 2.5rem;
@@ -22,6 +25,7 @@
 	border-bottom: solid #ff6610 0.3rem;
 }
 .info-wrap{
+    margin-top: 3rem;
 	height: auto;
 	width: 100%;
 }
@@ -54,12 +58,12 @@
 	-webkit-box-flex:1;
 	text-align: center;
 	border-bottom: none;
-	border-top: solid 1px #dddddd;
+	border-top: solid 1px #f2f2f2;
 	height: 2rem;
 	line-height: 2rem;
 	margin-bottom: 0;
     text-overflow:ellipsis;
-    font-size: 0.6rem;
+    font-size: 0.8rem;
     overflow: hidden;
     white-space: nowrap;
 }
@@ -70,7 +74,7 @@
 }
 .publish-item-title{
 	margin: 0.5rem auto;
-    color: #555555;
+    color: #666666;
 	width: 95%;
 	font-size: 0.8rem;
 	line-height: 1.5rem;
@@ -102,7 +106,7 @@ span.user-img img{
 .publisher span.user-nickname{
 	margin-left: 0.5rem;
 	font-size: 1rem;
-	color: #666666;
+	color: #333333;
 }
 .publisher span.sexy{
 	height: 2rem;

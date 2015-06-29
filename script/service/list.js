@@ -10,13 +10,13 @@ var list=(function(_self){
 $(function(){
     //点击弹出选择层
     $("#header_opt").find("li").bind("click",function(){
-        alert($(document).scrollTop())
         commonHelper.popCover(function(){
             list.showPopSelect();
             $("body").find(".pop-cover").one("click",function(){
                 $("body").find(".pop-cover").remove();
                 $("#pop_select").hide();
                 $("#pop_select").css({"height":"0rem"});
+                $("body").removeAttr("style")
             });
         });
     });

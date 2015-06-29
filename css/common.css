@@ -1,8 +1,8 @@
 body{
     padding: 0px;
     margin: 0px;
-    background: #f2f2f2;
-    font-family: "微软雅黑"
+    background: #f2f2f2;  
+    font-family: "Microsoft YaHei";
 }
 p,ul,li{
     padding: 0px;
@@ -40,17 +40,21 @@ input,textarea,select,button{
 .pop-cover{
     height: 100%;
     width: 100%;
-    position: absolute;
+    position: fixed;
     z-index: 10;
     background: #000000;
-    opacity: 0.8;
+    opacity: 0.5;
     top: 0;
     left: 0;
 }
 
 ::-webkit-scrollbar {
 
-  
-
 }
-   
+.no-border-bar{
+box-shadow: none;
+}
+.white-bg{
+background: #ffffff;}
+.mui-input-group .mui-text-row{
+height: auto}

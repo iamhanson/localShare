@@ -22,18 +22,6 @@
         </script>
     </head>
     <body>
-        <header>
-            <div class="header-wrap">
-<!--
-                <div class="location">
-                    <i class=" icon-map-marker"></i><span> 合肥 </span>
-                </div>
--->
-                <div class="search-box">
-                    <input type="text" placeholder="请输入类别或关键字" >
-                </div>
-            </div>
-        </header>
         <!--主体内容的包裹-->
         <div class="content-wrap">
             <!--通知/广播-->
@@ -43,9 +31,9 @@
                     <span>借东西可以让小童给你担保啦！</span>
                 </div>
             </div>
-            <div class="cotegory-wrap">
+            <div class="cotegory-wrap" id="category">
                 <div class="category c-first">
-                    <div class="category-item">
+                    <div onClick="window.jsHandler.changeViewPager()" class="category-item">
                         <div class="ci-hyk"></div>
                         <p>会员卡证</p>
                     </div>
@@ -82,7 +70,7 @@
                 </div>
             </div>
 
-            <div class="push-wrap">
+            <div class="push-wrap" id="push">
                 <div class="hobby">
                     <div class="push-title">
                         <span class="pt-text">租借专题</span></span>
@@ -126,6 +114,5 @@
                 </div>
             </div>
         </div>
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     </body>
 </html>

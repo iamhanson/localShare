@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>借吧</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta http-equiv="pragma" content="no-cache" />
+        <meta charset="utf-8" />
+        <link rel="stylesheet" type="text/css" href="../css/fontawesome/css/font-awesome.min.css" />
+        <link rel="stylesheet" type="text/css" href="../css/common.css" />
+        <link rel="stylesheet" type="text/css" href="../css/login.css" />
+        <script src="../script/lib/zepto.js"></script>
+
+    </head>
+    <body>
+        <form>
+        <div class="login-form">
+            <input type="text" name="username" placeholder="请输入手机号或者邮箱" >
+            <input type="password" name="userpassword" placeholder="请输入密码" >
+        </div>
+        <button class="longin-btn" onclick="alert('功能开发中'); return false">登录</button>
+        </form>
+        <p class="login-href"><a id="register" href="javascript:void(0)">手机号注册</a> | <a href="javascript:void(0)">找回密码</a></p>
+        <p class="login-href">其他方式登录</p>
+        <ul class="third-login">
+            <li>
+                <img src="../image/wb_logo.png" />
+                <p>微博登录</p>
+            </li>
+            <li>
+                <img src="../image/qq.png" />
+                <p>QQ登录</p>
+            </li>
+        </ul>
+    </body>
+    <script src="../script/service/common.js"></script>
+		<script src="../script/service/login.js"></script>
+</html>

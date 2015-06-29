@@ -1,0 +1,60 @@
+.register-form{
+    margin: 1.5rem auto 0;
+    overflow: hidden;
+    height: 2.5rem;
+    width: 90%;
+    border: solid 0.1rem #cccccc;
+    border-radius: 0.5rem;
+    background: #ffffff;
+		display: -webkit-box;	
+		-webkit-box-orient:horizontal;
+		-webkit-box-align:center;
+}
+.login-form input{
+    width: 100%;
+    padding-left: 0.5rem;
+    height: 2.9rem;
+    border: none;
+    font-family: "Microsoft YaHei";
+}
+.login-form input:first-child{
+    border-bottom: 0.1rem #cccccc solid
+}
+.longin-btn{
+    display: block;
+    margin: 1rem auto 0;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    width: 90%;
+    font-size: 1rem;
+    border: solid 0.1rem #2E6DB7;
+    border-radius: 0.5rem;
+    background: #367BCD;
+    color: #ffffff;
+    font-family: "Microsoft YaHei";
+    cursor: pointer;
+	  white-space: nowrap;
+}
+.longin-btn:hover{
+    background: #3277C8
+}
+.login-tip{
+	width: 90%;
+	line-height:1.1rem;
+	font-size: 0.8rem;
+	margin: 1.5rem auto 0;
+	color: #666666;
+}
+.register-form label{
+	display: inline-block;
+	height: 100%;
+	line-height: 2.5rem;
+	padding:0 0.5rem;
+	background: #cccccc;
+	color: #555;
+}
+.register-form input{
+	border: none;
+	font-size: 1rem;
+	color: #666666;
+}
